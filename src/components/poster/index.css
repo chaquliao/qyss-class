@@ -1,3 +1,4 @@
+@font-face {font-family: 'jdzhonyuanjian3fb8b2440f25da0';src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.gif?r=271003230614');src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.gif?r=271003230614?#iefix') format('embedded-opentype'),url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.png?r=271003230614') format('woff2'),url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.bmp?r=271003230614') format('woff'),url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.jpg?r=271003230614') format('truetype');font-weight: normal;font-style: normal;}.css3fb8b2440f25da0{font-family: 'jdzhonyuanjian3fb8b2440f25da0';}
 .container {
     background-color: #fff;
     display: flex;
@@ -5,7 +6,12 @@
 }
 
 .wrapper {
-    width: 600px;
+    width: 400px;
     padding-top: 40px;
     background-image: url('../../assets/images/background.png');
+}
+
+.css3fb8b2440f25da0 {
+    font-size: 32px;
+    font-weight: 700;
 }
