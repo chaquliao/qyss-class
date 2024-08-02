@@ -1,0 +1,11 @@
+.container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 600px;
+    padding-top: 40px;
+    background-image: url('../../assets/images/background.png');
+}
