@@ -1,4 +1,15 @@
-@font-face {font-family: 'jdzhonyuanjian3fb8b2440f25da0';src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.gif?r=271003230614');src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.gif?r=271003230614?#iefix') format('embedded-opentype'),url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.png?r=271003230614') format('woff2'),url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.bmp?r=271003230614') format('woff'),url('//cdn.repository.webfont.com/webfonts/nomal/155040/19673/66acefdea75bea1cfc98f1a5.jpg?r=271003230614') format('truetype');font-weight: normal;font-style: normal;}.css3fb8b2440f25da0{font-family: 'jdzhonyuanjian3fb8b2440f25da0';}
+@font-face {
+    font-family: 'hdjxyt3ff6055db825da0';
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca2d6a75bea1d80ed8cf1.gif?r=272032086816');
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca2d6a75bea1d80ed8cf1.gif?r=272032086816?#iefix') format('embedded-opentype'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca2d6a75bea1d80ed8cf1.png?r=272032086816') format('woff2'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca2d6a75bea1d80ed8cf1.bmp?r=272032086816') format('woff'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca2d6a75bea1d80ed8cf1.jpg?r=272032086816') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.css3ff6055db825da0 {
+    font-family: 'hdjxyt3ff6055db825da0';
+}
+
 .container {
     background-color: #fff;
     display: flex;
@@ -11,7 +22,156 @@
     background-image: url('../../assets/images/background.png');
 }
 
-.css3fb8b2440f25da0 {
+.css3ff6055db825da0 {
     font-size: 32px;
-    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+@font-face {
+    font-family: 'hdjxyt3ff5fe59f825da0';
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca10aa75bea1d80ed8cf0.gif?r=272031627212');
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca10aa75bea1d80ed8cf0.gif?r=272031627212?#iefix') format('embedded-opentype'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca10aa75bea1d80ed8cf0.png?r=272031627212') format('woff2'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca10aa75bea1d80ed8cf0.bmp?r=272031627212') format('woff'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca10aa75bea1d80ed8cf0.jpg?r=272031627212') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.css3ff5fe59f825da0 {
+    font-family: 'hdjxyt3ff5fe59f825da0';
+}
+
+/* class="css3ff5fe59f825da0" */
+.css3ff5fe59f825da0 {
+    color: #fff;
+    font-size: 16px;
+    /* margin-left: 150px; */
+}
+
+.sloganContainer {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 130px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.slogan {
+    padding: 4px 8px;
+    background-color: #000;
+    border-radius: 4px;
+}
+
+@font-face {
+    font-family: 'hdjxyt3ff60aa5fb25da0';
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca430a75bea1d80ed8cf2.gif?r=272032432947');
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca430a75bea1d80ed8cf2.gif?r=272032432947?#iefix') format('embedded-opentype'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca430a75bea1d80ed8cf2.png?r=272032432947') format('woff2'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca430a75bea1d80ed8cf2.bmp?r=272032432947') format('woff'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca430a75bea1d80ed8cf2.jpg?r=272032432947') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.css3ff60aa5fb25da0 {
+    font-family: 'hdjxyt3ff60aa5fb25da0';
+}
+
+@font-face {
+    font-family: 'hdjxyt3ff60fd0f125da0';
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca583a75bea1d80ed8cf3.gif?r=272032771594');
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca583a75bea1d80ed8cf3.gif?r=272032771594?#iefix') format('embedded-opentype'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca583a75bea1d80ed8cf3.png?r=272032771594') format('woff2'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca583a75bea1d80ed8cf3.bmp?r=272032771594') format('woff'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca583a75bea1d80ed8cf3.jpg?r=272032771594') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.css3ff60fd0f125da0 {
+    font-family: 'hdjxyt3ff60fd0f125da0';
+}
+
+.infoContainer {
+    width: 325px;
+    position: absolute;
+    background: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    top: 165px;
+    text-align: left;
+}
+
+.infoWrapper {
+    padding-top: 10px;
+}
+
+@font-face {
+    font-family: 'hdjxyt3ff61de94725da0';
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca91fa75bea1d80ed8cf4.gif?r=272033695313');
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca91fa75bea1d80ed8cf4.gif?r=272033695313?#iefix') format('embedded-opentype'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca91fa75bea1d80ed8cf4.png?r=272033695313') format('woff2'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca91fa75bea1d80ed8cf4.bmp?r=272033695313') format('woff'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bca91fa75bea1d80ed8cf4.jpg?r=272033695313') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.css3ff61de94725da0 {
+    font-family: 'hdjxyt3ff61de94725da0';
+}
+
+.titleBarContainer {
+    background-color: #c4f134;
+    width: 75px;
+    border-top-right-radius: 12px;
+}
+
+.titleBarWrapper {
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    letter-spacing: 1px;
+}
+
+.contentContainer {
+    padding-top: 4px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'hdjxyt3ff62b5ffc25da0';
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcac91a75bea1d80ed8cf5.gif?r=272034577654');
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcac91a75bea1d80ed8cf5.gif?r=272034577654?#iefix') format('embedded-opentype'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcac91a75bea1d80ed8cf5.png?r=272034577654') format('woff2'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcac91a75bea1d80ed8cf5.bmp?r=272034577654') format('woff'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcac91a75bea1d80ed8cf5.jpg?r=272034577654') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.css3ff62b5ffc25da0 {
+    font-family: 'hdjxyt3ff62b5ffc25da0';
+}
+
+@font-face {
+    font-family: 'hdjxyt3ff62d3d0b25da0';
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcad0ba75bea1d80ed8cf6.gif?r=272034700296');
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcad0ba75bea1d80ed8cf6.gif?r=272034700296?#iefix') format('embedded-opentype'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcad0ba75bea1d80ed8cf6.png?r=272034700296') format('woff2'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcad0ba75bea1d80ed8cf6.bmp?r=272034700296') format('woff'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66bcad0ba75bea1d80ed8cf6.jpg?r=272034700296') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.css3ff62d3d0b25da0 {
+    font-family: 'hdjxyt3ff62d3d0b25da0';
+}
+
+.teacherName {
+    font-weight: 900;
+}
+
+.viewButton {
+    --background-color: #c4f134;
+}
+
+.certificationImgContainer {
+    /* padding: 10px; */
+    margin-top: 10px;
+}
+
+.adm-swiper-slide {
+    transform: scale(0.6);
+    transition: all 0.3s;
+}
+
+.adm-swiper-slide-active {
+    transform: scale(1);
 }
