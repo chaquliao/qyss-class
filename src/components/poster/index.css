@@ -175,3 +175,35 @@
 .adm-swiper-slide-active {
     transform: scale(1);
 }
+
+.contactContainer {
+    width: 355px;
+    position: relative;
+    background: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    top: 800px;
+    text-align: left;
+}
+
+.contactWrapper {
+    padding: 8px 8px;
+}
+
+.imgWrapper {
+    border: 1px solid #c4f134;
+    border-radius: 4px;
+}
+
+@font-face {
+    font-family: 'hdjxyt3ffb74c27425da0';
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66be0708a75bea1de81b3db9.gif?r=272123273039');
+    src: url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66be0708a75bea1de81b3db9.gif?r=272123273039?#iefix') format('embedded-opentype'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66be0708a75bea1de81b3db9.png?r=272123273039') format('woff2'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66be0708a75bea1de81b3db9.bmp?r=272123273039') format('woff'), url('//cdn.repository.webfont.com/webfonts/nomal/155040/19892/66be0708a75bea1de81b3db9.jpg?r=272123273039') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.css3ffb74c27425da0 {
+    font-family: 'hdjxyt3ffb74c27425da0';
+}
