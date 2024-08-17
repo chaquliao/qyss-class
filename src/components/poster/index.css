@@ -163,7 +163,6 @@
 }
 
 .certificationImgContainer {
-    /* padding: 10px; */
     margin-top: 10px;
 }
 
@@ -182,8 +181,8 @@
     background: #fff;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 20px;
-    top: 800px;
+    border-radius: 15px;
+    top: 660px;
     text-align: left;
 }
 
@@ -207,3 +206,20 @@
 .css3ffb74c27425da0 {
     font-family: 'hdjxyt3ffb74c27425da0';
 }
+
+.imgContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1040px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+/* .imgInnerContainer {
+    padding-top: 10px;
+}
+
+.imgInnerWrapper {
+    padding-top: 5px;
+} */

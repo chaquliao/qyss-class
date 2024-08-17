@@ -30,6 +30,8 @@ import certificate20Png from '../../assets/images/certificate20.jpg';
 import zhizhaoPng from '../../assets/images/zhizhao.jpeg';
 import wechatJpeg from '../../assets/images/wechat.jpeg';
 import { INFO_BOX_IMAGE } from '../../assets/images/base64-image'
+import { ImgPreview } from './imgPreview'
+import { GroupBooks } from './groupBooks'
 import './index.css'
 
 const certificatePngs = [certificate1Png, certificate2Png, certificate3Png, certificate4Png, certificate5Png, certificate6Png, certificate7Png, certificate8Png, certificate9Png, certificate10Png, certificate11Png, certificate12Png, certificate13Png, certificate14Png, certificate15Png, certificate16Png, certificate17Png, certificate18Png, certificate19Png, certificate20Png]
@@ -40,20 +42,9 @@ export const Poster = () => {
 
     return (
         <div className='container'>
-            <ImageViewer
-                classNames={{
-                    mask: 'customize-mask',
-                    body: 'customize-body',
-                }}
-                image={zhizhaoPng}
-                visible={zhizhaoVisible}
-                onClose={() => {
-                    setZhizhaoVisible(false)
-                }}
-            />
             <div className='wrapper'>
                 <div style={{
-                    height: '1200px'
+                    height: '6200px'
                 }}>
                     <div className='css3ff6055db825da0'>浅予深深托管班开班了</div>
                     <div style={{
@@ -109,7 +100,7 @@ export const Poster = () => {
                             left: '50%',
                             transform: 'translateX(-50%)',
                         }}>
-                            <Image src={INFO_BOX_IMAGE} width={360} height={750} />
+                            <Image src={INFO_BOX_IMAGE} width={360} height={610} />
                         </div>
                         <Space className='sloganContainer' direction='vertical' style={{ '--gap': '13px' }}>
                             <span className="slogan">
@@ -238,28 +229,6 @@ export const Poster = () => {
                                     <div>
                                         <div className='teacherName'>廖俊平（浅予）：</div>
                                         <div>优秀高中语文教师、年级主任、优秀班主任、家庭教育指导师、心理咨询师（业余）、高级阅读指导师</div>
-                                        <div style={{ paddingRight: "12px" }}>
-                                            <Swiper
-                                                slideSize={60}
-                                                trackOffset={20}
-                                                stuckAtBoundary={false}
-                                                total={20}
-                                                indicator={false}
-                                                defaultIndex={0}
-                                            >
-                                                {
-                                                    certificatePngs.map(item => (
-                                                        <Swiper.Item>
-                                                            <div className='certificationImgContainer'>
-                                                                <div className='certificationImgWrapper'>
-                                                                    <Image src={item} />
-                                                                </div>
-                                                            </div>
-                                                        </Swiper.Item>
-                                                    ))
-                                                }
-                                            </Swiper>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -267,44 +236,37 @@ export const Poster = () => {
                     </div>
                     <div className='contactContainer'>
                         <div className='contactWrapper'>
-                            <Space justify="around" style={{ width: '100%' }} >
-                                <div onClick={() => setZhizhaoVisible(true)}>
-                                    <div className='css3ff62d3d0b25da0' style={{
-                                        textAlign: 'center',
-                                        paddingBottom: '5px',
-                                    }}>营业执照</div>
-                                    <Image src={zhizhaoPng} width={160} height={120} className='imgWrapper' />
-                                </div>
-                                <Divider type="vertical" style={{
-                                    color: '#fdbfad',
-                                    borderColor: '#fdbfad',
-                                    borderStyle: 'dashed',
-                                    borderWidth: '2px',
-                                    height: '120px'
-                                }} />
+                            <Space justify="around" align='center' style={{ width: '100%' }} >
                                 <div onClick={() => setWechatVisible(true)}>
                                     <div className='css3ffb74c27425da0' style={{
                                         textAlign: 'center',
                                         paddingBottom: '5px',
                                     }}>微信联系</div>
-                                    <Image src={wechatJpeg} width={100} height={120} className='imgWrapper' />
+                                    <Image src={wechatJpeg} width={120} height={140} />
                                 </div>
+                                <Divider type="vertical" style={{
+                                    color: '#000',
+                                    borderColor: '#000',
+                                    // borderStyle: 'dashed',
+                                    borderWidth: '2px',
+                                    height: '120px'
+                                }} />
+                                <GroupBooks />
                             </Space>
                         </div>
                     </div>
+                    <div className='imgContainer'>
+                        <div className='css3ff62d3d0b25da0' style={{ marginTop: '20px' }}>营业执照</div>
+                        <ImgPreview imgUrl={zhizhaoPng} />
+                        <div className='css3ff62d3d0b25da0' style={{ marginTop: '20px' }}>证书</div>
+                        {
+                            certificatePngs.map(item => (
+                                <ImgPreview imgUrl={item} />
+                            ))
+                        }
+                    </div>
                 </div>
             </div >
-            <ImageViewer
-                classNames={{
-                    mask: 'customize-mask',
-                    body: 'customize-body',
-                }}
-                image={zhizhaoPng}
-                visible={zhizhaoVisible}
-                onClose={() => {
-                    setZhizhaoVisible(false)
-                }}
-            />
             <ImageViewer
                 classNames={{
                     mask: 'customize-mask',
