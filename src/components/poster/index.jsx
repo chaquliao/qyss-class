@@ -44,7 +44,7 @@ export const Poster = () => {
         <div className='container'>
             <div className='wrapper'>
                 <div style={{
-                    height: '6200px'
+                    height: '5800px'
                 }}>
                     <div className='css3ff6055db825da0'>浅予深深托管班开班了</div>
                     <div style={{

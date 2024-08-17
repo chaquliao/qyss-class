@@ -3,7 +3,7 @@ import { ImageViewer, Image } from 'antd-mobile'
 import './index.css'
 
 export const ImgPreview = (props) => {
-    const { imgUrl, title } = props;
+    const { imgUrl } = props;
     const [visible, setVisible] = useState(false);
     return (
         <>
@@ -20,6 +20,7 @@ export const ImgPreview = (props) => {
                         mask: 'customize-mask',
                         body: 'customize-body',
                     }}
+                    getContainer={() => document.getElementById('root')}
                     image={imgUrl}
                     visible={visible}
                     onClose={() => {
