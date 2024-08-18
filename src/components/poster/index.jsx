@@ -203,7 +203,7 @@ export const Poster = () => {
                                 </div>
                                 <div className='contentContainer'>
                                     <span>
-                                        托管费1200／月，晚餐费20元／餐
+                                        托管费1200／月，晚餐费20～30元／餐
                                     </span>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@ export const Poster = () => {
                                 <div className='contentContainer'>
                                     <div>
                                         <div className='teacherName'>廖俊平（浅予）：</div>
-                                        <div>优秀高中语文教师、年级主任、优秀班主任、家庭教育指导师、心理咨询师（业余）、高级阅读指导师</div>
+                                        <div>有35年教龄的优秀高中语文教师、年级主任、优秀班主任、家庭教育指导师、心理咨询师、高级阅读指导师</div>
                                     </div>
                                 </div>
                             </div>
