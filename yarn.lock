@@ -1712,7 +1712,7 @@
 
 "@remix-run/router@1.19.1":
   version "1.19.1"
-  resolved "http://r.npm.sankuai.com/@remix-run/router/download/@remix-run/router-1.19.1.tgz#984771bfd1de2715f42394c87fb716c1349e014f"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/download/@remix-run/router-1.19.1.tgz#984771bfd1de2715f42394c87fb716c1349e014f"
   integrity sha1-mEdxv9HeJxX0I5TIf7cWwTSeAU8=
 
 "@rollup/plugin-babel@^5.2.0":
@@ -7880,7 +7880,7 @@ react-refresh@^0.11.0:
 
 react-router-dom@^6.26.1:
   version "6.26.1"
-  resolved "http://r.npm.sankuai.com/react-router-dom/download/react-router-dom-6.26.1.tgz#a408892b41767a49dc94b3564b0e7d8e3959f623"
+  resolved "https://registry.yarnpkg.com/react-router-dom/download/react-router-dom-6.26.1.tgz#a408892b41767a49dc94b3564b0e7d8e3959f623"
   integrity sha1-pAiJK0F2eknclLNWSw59jjlZ9iM=
   dependencies:
     "@remix-run/router" "1.19.1"
@@ -7888,7 +7888,7 @@ react-router-dom@^6.26.1:
 
 react-router@6.26.1:
   version "6.26.1"
-  resolved "http://r.npm.sankuai.com/react-router/download/react-router-6.26.1.tgz#88c64837e05ffab6899a49df2a1484a22471e4ce"
+  resolved "https://registry.yarnpkg.com/react-router/download/react-router-6.26.1.tgz#88c64837e05ffab6899a49df2a1484a22471e4ce"
   integrity sha1-iMZIN+Bf+raJmknfKhSEoiRx5M4=
   dependencies:
     "@remix-run/router" "1.19.1"
