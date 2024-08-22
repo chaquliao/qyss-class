@@ -4,7 +4,7 @@ import './index.css';
 
 export const Letter = () => {
   return (
-    <div className="container">
+    <div className="letter-container">
       <h1>致家长</h1>
       <p>浅予托管不是一个单纯的托管班。</p>
       <p>作为一个有三十五年高中语文教学经历和二十多年班主任工作经验的老师，我见到太多高中学生家长的无奈与痛苦，清楚地知道高中阶段学生的问题根源在小学阶段。</p>
